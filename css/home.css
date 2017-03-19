@@ -1,3 +1,49 @@
-h1{
-    color: darkturquoise;
+#Container{
+    width: 1366px;
+    height: auto;
+    margin: 2em auto 2em auto;
+}
+
+#Header{
+    height: 10em;
+    background-color: aquamarine;
+}
+
+#Switch{
+    height: 15em;
+    background-color: bisque;
+}
+
+#Gaming{
+    width: 683px;
+    height: 15em;
+    float: left;
+    background-color: cornsilk;
+}
+
+#Enthusiast{
+    width: 683px;
+    height: 15em;
+    float: right;
+    background-color: burlywood;
+}
+
+#Best{
+    height: 15em;
+    background-color: darkkhaki;
+    clear: both;
+}
+
+@media screen and (max-width: 959px){
+    #Container{
+        width: 100%;
+    }
+
+    #Gaming{
+        width: 50%;
+    }
+
+    #Enthusiast{
+        width: 50%;
+    }
 }
