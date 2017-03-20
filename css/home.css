@@ -2,6 +2,16 @@ body{
     background-image: url("http://i.imgur.com/Nqy9eLb.jpg");
 }
 
+
+h1{
+    margin: 0em auto 0.2em auto;
+    font-family: 'VT323', monospace;
+    letter-spacing: 8px;
+    text-align: center;
+    color: #F1F0FF;
+    background-color: #B968C7;
+}
+
 #Header h1{
     font-style: italic;
     text-align: center;
@@ -10,15 +20,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2.5em;
-}
-
-h1{
-    margin: 0em auto 0.2em auto;
-    font-family: 'VT323', monospace;
-    font-style: italic;
-    letter-spacing: 8px;
-    text-align: center;
-    color: #F1F0FF;
+    background-color: transparent;
 }
 
 h2{
@@ -26,6 +28,39 @@ h2{
     font-family: 'VT323', monospace;
     text-align: center;
     margin-top: 0em;
+    margin-bottom: 1em;
+    color: #F1F0FF;
+    font-size: 1.75em;
+}
+
+p{
+    font-family: 'VT323', monospace;
+    color: #F1F0FF;
+    font-size: 20px;
+    margin-top: 0.5em;
+}
+
+#Switch p{
+    text-align: center;
+    padding-left: 15%;
+    padding-right:15%;
+}
+
+#Gaming p{
+    padding-right: 0.5em;
+    padding-top: 3em;
+    padding-left: 1em;
+}
+
+#Enthusiast p{
+    padding-left: 1em;
+    padding-top: 3em;
+}
+
+#Best p{
+    padding-left: 15%;
+    padding-right:15%;
+    text-align: center;
 }
 #Container{
     position: relative;
@@ -36,37 +71,36 @@ h2{
 
 #Header{
     height: 10em;
-    background: linear-gradient(90deg, #8C489F, #2F1B47); .
-
+    background-color: #421C52;
 }
 
 #Switch{
-    height: 20em;
-    background-color: bisque;
-    background: linear-gradient(-90deg, #8C489F, #2F1B47);
-    padding-left: 15%;
-    padding-right:15%;
+    height: 25em;
+    background-color: #421C52;
+
 }
 
 #Gaming{
     width: 683px;
-    height: 25em;
+    height: 30em;
     float: left;
-    background-color: cornsilk;
+    background-color: #421C52;
 }
 
 #Enthusiast{
     width: 683px;
-    height: 25em;
+    height: 30em;
     float: right;
-    background-color: burlywood;
+    background-color: #421C52;
 }
 
 #Best{
-    height: 20em;
-    background-color: darkkhaki;
+    height: 30em;
+    background-color: #421C52;
     clear: both;
+
 }
+
 
 @media screen and (max-width: 1365px){
     #Container{
@@ -80,18 +114,14 @@ h2{
     #Enthusiast{
         width: 50%;
     }
+
+    #Switch{
+        width: auto;
+    }
 }
 
-p{
-    font-family: 'VT323', monospace;
-    text-align: center;
-    color: #F1F0FF;
-    font-size: 20px;
-    margin-top: 0.5em;
-}
-
-#Brown{
-    display:block;
-    margin:auto;
-    height: 50%;
+@media screen and (max-width: 1000px){
+    #Container{
+        width:1000px;
+    }
 }

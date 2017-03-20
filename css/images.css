@@ -1,0 +1,29 @@
+#Brown{
+    display:block;
+    margin:auto;
+    height: 50%;
+    margin-top: 1.5em;
+}
+
+#K70{
+    float: left;
+    margin-top: 2em;
+    margin-left:2em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    height: 30%;
+}
+
+#Ducky{
+    float: left;
+    height: 40%;
+    width: 50%;
+    margin-right: 1em;
+}
+
+#Eagle{
+    display:block;
+    margin:auto;
+    height: 40%;
+    margin-bottom: 1em;
+}
